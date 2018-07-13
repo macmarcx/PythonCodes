@@ -1,4 +1,4 @@
-#Divis„o de valores
+#Divis√£o de Valores
 
 #Input do primeiro valor
 valor1 = int(input('Digite o primeiro valor: '))
@@ -6,5 +6,5 @@ valor1 = int(input('Digite o primeiro valor: '))
 #Input do segundo valor
 valor2 = int(input('Digite o segundo valor: '))
 
-#Divis„o dos valores e apresentaÁ„o na tela
-print('A Divis„o dos valores e igual a ', valor1 / valor2)
+#Divis√£o dos valores e apresenta√ß√£o na tela
+print('A Divis√£o dos valores e igual a ', valor1 / valor2)
