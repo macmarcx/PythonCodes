@@ -2,4 +2,4 @@
 
 #Utilizando a função "center" para centralizar uma string
 
-'ManipulandoStringsempython'.center(30)
+'Manipulandostringsempython'.center(30)
