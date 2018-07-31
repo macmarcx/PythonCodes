@@ -8,4 +8,4 @@
 
 #Caso que retorna False - Espaços em branco também conta
 
-'m@nipul@nd0 $trings em python'.isalnum()
+'m@nipul@nd0 $trings em pyth0n'.isalnum()
