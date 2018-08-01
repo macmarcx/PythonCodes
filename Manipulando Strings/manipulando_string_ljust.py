@@ -2,4 +2,4 @@
 
 #Utilizando a função "ljust" para criar espaçamento a direita de uma string
 
-'ManipulandoStringsempython'.ljust(30)
+'ManipulandoStringsemPython'.ljust(30)
