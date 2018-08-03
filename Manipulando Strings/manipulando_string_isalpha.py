@@ -8,4 +8,4 @@
 
 #Caso que retorna False - Espaços em branco também conta
 
-'Manipuland0 Strings em pyth0n'.isalpha()
+'Manipuland0 Strings em Pyth0n'.isalpha()
