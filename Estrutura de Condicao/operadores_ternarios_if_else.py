@@ -1,3 +1,4 @@
+#Operadores ternarios
 imposto = 0.3
 'Alto' if imposto > 0.27 else 'Baixo'
 
