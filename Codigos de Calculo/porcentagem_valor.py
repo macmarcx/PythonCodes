@@ -9,7 +9,7 @@ valor2 = float(input('Digite o segundo valor: '))
 #Divisao do primeiro valor por 100
 div = valor1 / 100
 
-#Multiplicacao da divisao pelo segundo valor
+#Multiplicacao da divisao pelo segundo valor 
 multi = div * valor2
 
 #Porcentagem dos valores e apresenta��o na tela
