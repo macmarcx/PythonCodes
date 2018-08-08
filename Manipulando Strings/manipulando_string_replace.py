@@ -1,4 +1,4 @@
-#Manipulando Strings com replace
+#Manipulando Strings com replace 
 
 frase = "Manipulando strings em Python"
 
@@ -9,5 +9,3 @@ frase = frase.replace('strings', 'codigo')
 #Exibindo na tela
 
 frase
-
-
