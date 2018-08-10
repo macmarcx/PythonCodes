@@ -6,4 +6,6 @@ if imposto == '':
 else:
 	imposto = float(imposto)
 
+
+
 print('Valor real: {0}' .format(salario - (salario * (imposto * 0.01))))
