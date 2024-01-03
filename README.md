@@ -1,3 +1,3 @@
-Olá!
+Hello!
 
-Neste repositório estou colocando algumas funções e aplicações feitas em Python.
+In this repository I am placing some functions and applications made in Python.
