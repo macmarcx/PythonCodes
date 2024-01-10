@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride-Sharing App</title>
+</head>
+<body>
+    <h1>Ride-Sharing App</h1>
+    <form id="rideForm">
+        <label for="user_id">User ID:</label>
+        <input type="text" id="user_id" name="user_id" required><br>
+
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" name="origin" required><br>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br>
+
+        <button type="button" onclick="requestRide()">Request Ride</button>
+    </form>
+
+    <div id="ridesList"></div>
+
+    <script>
+        function requestRide() {
+            const user_id = document.getElementById('user_id').value;
+            const origin = document.getElementById('origin').value;
+            const destination = document.getElementById('destination').value;
+
+            fetch('/api/request_ride', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_id, origin, destination }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                document.getElementById('rideForm').reset();
+                getRides();
+            });
+        }
+
+        function getRides() {
+            fetch('/api/get_rides')
+            .then(response => response.json())
+            .then(data => {
+                const ridesList = document.getElementById('ridesList');
+                ridesList.innerHTML = '<h2>Rides:</h2>';
+
+                if (data.rides.length === 0) {
+                    ridesList.innerHTML += '<p>No rides available.</p>';
+                } else {
+                    data.rides.forEach(ride => {
+                        ridesList.innerHTML += `
+                            <p>User ID: ${ride.user_id}</p>
+                            <p>Origin: ${ride.origin}</p>
+                            <p>Destination: ${ride.destination}</p>
+                            <p>Status: ${ride.status}</p>
+                            <hr>
+                        `;
+                    });
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            getRides();
+        });
+    </script>
+</body>
+</html>
