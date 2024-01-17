@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\templates",
+    "\\Useful Scripts"
   ],
+  "SelectedNode": "\\Useful Scripts\\explorer.py",
   "PreviewInSolutionExplorer": false
 }
