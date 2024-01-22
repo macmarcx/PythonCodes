@@ -22,6 +22,7 @@ def search_on_other_site(email):
 
 # Create the main window
 window = tk.Tk()
+
 window.title("Email Search")
 
 # Create and position the widgets
