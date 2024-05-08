@@ -4,10 +4,10 @@ import pandas as pd
 from datetime import datetime
 
 # URL of your job site
-url = 'place_your_url_here'
+url = 'https://ie.indeed.com/jobs?q=cyber+security&l=Dublin%2C+County+Dublin&from=searchOnHP&vjk=763c418d4f40d108'
 
 # List of job titles
-jobs = ["Cybersecurity", "Cybersecurity Analyst", "System Administrator"]
+jobs = ["Cybersecurity", "Cybersecurity Analyst", "System Administrator", "Cyber Security"]
 
 # Creating an empty DataFrame to store the data
 data = pd.DataFrame(columns=['Job Title', 'Date', 'Time', 'Region', 'Sponsor'])
