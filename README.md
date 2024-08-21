@@ -31,7 +31,7 @@ To run these projects locally, make sure you have Python installed. You can clon
 ```bash
 git clone https://github.com/macmarcx/PythonCodes.git
 cd PythonCodes
-python3 calculator.py
+python3 manipulate_data.py
 ```
 
 ## 🤝 Contributions & Feedback
