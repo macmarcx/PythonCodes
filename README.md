@@ -4,9 +4,9 @@ Welcome to my Python Portfolio! This repository showcases a collection of my Pyt
 
 ## 🚀 Projects
 
-### 1. **Calculator**
-A simple yet functional calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
-- **Key Concepts**: Functions, Control Flow
+### 1. **Data Manipulation Script for Analyzing Employee Salaries by Department**
+Overview: This script processes employee data, specifically focusing on cleaning and analyzing salary information. It reads data from a CSV file, cleans the salary column by removing currency symbols, converts the data to a numerical format, and calculates the average salary per department. The results are visualized using a bar chart to highlight salary distribution across departments.
+- **Key Concepts**: Data Cleaning, Aggregation, Grouping, Data Visualization
 - **Languages**: Python
 
 ### 2. **Web Scraper**
