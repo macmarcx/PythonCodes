@@ -6,7 +6,7 @@ def plot_histogram(data, column):
     sns.histplot(data[column], kde=True)
     plt.title(f'Histogram of {column}')
     plt.show()
-#function
+
 def plot_scatter(data, x_column, y_column):
     plt.figure(figsize=(10, 6))
     sns.scatterplot(x=data[x_column], y=data[y_column])
