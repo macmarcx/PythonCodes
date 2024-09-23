@@ -1,6 +1,7 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Plot Histogram
 def plot_histogram(data, column):
     plt.figure(figsize=(10, 6))
     sns.histplot(data[column], kde=True)
