@@ -2,6 +2,7 @@ import streamlit as st
 from src.data_processing import load_data
 from src.visualizations import plot_histogram, plot_scatter
 
+# Run App
 def run_app():
     st.title('Data Visualizer Interactive')
     
