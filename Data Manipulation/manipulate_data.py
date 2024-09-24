@@ -14,7 +14,7 @@ df['Employee Annual Salary'] = df['Employee Annual Salary'].replace('[\$,]', '',
 # Calculate the average salary by department
 avg_salary_by_dept = df.groupby('Department')['Employee Annual Salary'].mean().sort_values()
 
-# Display the average salaries
+# Display the average salaries 
 print(avg_salary_by_dept.head())
 
 # Create the bar chart
