@@ -17,7 +17,7 @@ def extract_value(pdf_path, keyword):
                 return value
     return None
 
-# Keyword you want to search for in the PDFs
+# Keyword you want to search for in the PDFs 
 keyword = "YourDesiredValue"
 
 # Loop through all PDF files in the specified directory
